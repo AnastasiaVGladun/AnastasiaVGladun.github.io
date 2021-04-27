@@ -38,14 +38,16 @@
     padding-right: 250px;
     padding-bottom: 50px;
     padding-left: 0px;
+    font-size: 20px;
         
     }
-    .footer {
-        position: fixed;
+    footer {
+        position: absolute;
         bottom: 0;
         width: 100%;
         color: black;
         text-align: center;
+        margin: auto;
     }
     
     .textstyle {
@@ -58,16 +60,16 @@
     body {
         background-color: rgb(228, 231, 238);
     }
-    h1 {
+    /* h1 {
         text-align: center;
         margin: 5px 50px auto 50px;
         padding: 20px 30px 20px 30px;
         border-radius: 20px;
 
-    }
+    } */
     .textstyle {
         padding: 20px 30px 20px 30px;
-        margin: 50px 350px 50px 350px;
+        margin: 50px 250px 50px 250px;
         font-family: 'Times New Roman', Times, serif;
         text-align:justify;
         font-size: larger;
@@ -91,4 +93,9 @@
     background-color: #b1cdf7;
     display: inline-block;
     box-shadow:5px 5px rgb(7, 13, 109);
+    
   }
+.bloglist {
+     text-align: center;
+
+}
