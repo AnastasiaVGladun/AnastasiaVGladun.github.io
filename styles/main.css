@@ -1,12 +1,12 @@
 
 .topnav {
-    position: fixed;
+    position:absolute;
     top: 0;
     width: 100%;
     overflow: hidden;
-    background-color:#bfd7fc;
-    size: 200%;
-    
+    background-color:#eaf0fa;
+    border-bottom: solid #3b54e0;
+    box-shadow: 3px #1736e6;
     
 }
 .topnav a {
@@ -22,8 +22,7 @@
 .topnav a:hover {
     background-color:#97bef8;
     color: white;
-    border: #3650e7;
-    box-shadow: 5px #3650e7;
+    
   }
 
 #myphoto {
@@ -107,10 +106,7 @@
      text-align: center;
     
 }
-.projectList{
-    color: #3650e7;
-    text-align: center;
-    padding: 20px 40px 20px 40px;
+.projectList {
     text-decoration: none;
     font-size: 30px;
     border: solid ;
@@ -119,10 +115,15 @@
     background-color: #c7ddfd;
     display: inline-block;
     box-shadow:5px 5px rgb(7, 13, 109);
+    padding-inline-start: 0px;
 }
 
-.projectList.a {
+.projectList li a{
     text-align: center;
     text-decoration: none;
-    
+    color: #3650e7;
+    padding: 10px 30px 10px 30px;
+}
+.projectList ul {
+    padding-inline-start: 0px;
 }
